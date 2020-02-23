@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+''' Author: DerAlexmeister '''
+
 import argparse
 import os
 import sys
@@ -89,7 +91,7 @@ def main():
                         default="root"
                         )
     parser.add_argument('-verbose', 
-                        help="Will be the user to search for. Default is root.",
+                        help="Flag to output more or less information about a file.",
                         action='store_true'
                         )
     args = handleArguments(parser.parse_args())
