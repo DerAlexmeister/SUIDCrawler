@@ -11,7 +11,7 @@ This is a crawler written in python to find files with SUID-Bits. You can use mu
 
 "-verbose" will verbose detailed output about the found file.
 
-"path" will be the root-node from where to start to searching. Default '/' (Root-Dir)
+"-path" will be the root-node from where to start to searching. Default '/' (Root-Dir)
 ```
 
 ## Feedback/Improvement
